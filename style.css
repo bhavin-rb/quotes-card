@@ -1,0 +1,130 @@
+/*Centering Cards*/
+body{
+   /*background-color: #060A14;*/
+   background-color: #E0AAFF;
+   padding: 0;
+   margin: 0;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   }
+   /*Styling Cards*/
+   .card{
+   height: 400px;
+   width: 300px;
+   /*background-color:#091021;*/
+   background-color: #10002B;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top:20px;
+   margin-bottom: 5px;
+  }
+  /*Quote Icon*/
+  .fa{
+   color:rgba(255,255,255,0.1);
+   font-size: 120px;
+   position:absolute;
+   top:10px;
+ }
+ /*Typography*/
+ .text{
+   color:rgba(255,255,255,0.1);
+   position: relative;
+   font-size: 1.1em;
+   /*font-family: 'Work Sans',sans-serif;*/
+   font-family: 'Candara', sans-serif;
+   font-weight: 500;
+   letter-spacing: 0.07em;
+   text-align: justify;
+   margin: 145px 12px 0 12px;
+   line-height: 25px;
+  }
+/*Author Name*/
+.author{
+   position: absolute;
+   bottom: 30px;
+   right: 15px;
+   font-size: 1.4em;
+   font-family: 'Rubik',sans-serif;
+   color: rgba(255,255,255,0.05);
+   font-style: italic;
+}
+/*Hover Effect for Card*/
+.card:hover{
+   box-shadow:0 10px 10px 2px rgba(0,0,0,0.1);
+   transform: translateY(-5px);
+}
+/*Card Bacground Icon*/
+.card:hover .fa1{
+   background:linear-gradient(45deg,#F7BC01,#D56741);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa2{
+   background:linear-gradient(45deg,#27d853,#35c9ff  );
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa3{
+   background:linear-gradient(45deg,#fff502,#ffb800);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa4{
+   background:linear-gradient(45deg,#2400ff,#00d1ff);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa5{
+   background:linear-gradient(45deg,#f40594,#e105f4);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa6{
+   background:linear-gradient(45deg,#fd005b,#f90698);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa7{
+   background:linear-gradient(45deg,#0693f9,#09f2f2);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+.card:hover .fa8{
+   background:linear-gradient(45deg,#05ff00,#dbff00);
+   -webkit-text-fill-color:transparent;
+   -webkit-background-clip:text;
+}
+/*Final Touch*/
+.card:hover .text{
+   color: #d5d5d5;
+}
+.card:hover .a1{
+   color: #d2902d;
+}
+.card:hover .a2{
+   color: #39c65c;
+}
+.card:hover .a3{
+   color: #fff502;
+}
+.card:hover .a4{
+   color: #2400ff;
+}
+.card:hover .a5{
+   color: #f40594;
+}
+.card:hover .a6{
+   color: #fd005b;
+}
+.card:hover .a7{
+   color: #0693f9;
+}
+.card:hover .a8{
+   color: #05ff00;
+}
