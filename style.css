@@ -23,6 +23,7 @@ body{
    text-align: center;
    margin-top:20px;
    margin-bottom: 5px;
+   cursor:pointer;
   }
   /*Quote Icon*/
   .fa{
