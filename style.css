@@ -24,8 +24,8 @@ body{
    margin-top:20px;
    margin-bottom: 5px;
    cursor:pointer;
-   -webkit-perspective:900000px;
-   perspective: 900000px;
+   /*-webkit-perspective:900000px;*/
+   /*perspective: 900000px;*/
   }
   /*Quote Icon*/
   .fa{
@@ -62,46 +62,62 @@ body{
    box-shadow:0 10px 10px 2px rgba(0,0,0,0.1);
    -webkit-transform:translateY(-5px);
    transform: translateY(-5px);
-   -webkit-perspective:900000px;
-   perspective: 900000px;
+   /*-webkit-perspective:900000px;*/
+   /*perspective: 900000px;*/
 }
 /*Card Bacground Icon*/
 .card:hover .fa1{
+   background: -moz-linear-gradient(45deg,#F7BC01,#D56741);
+   background:-webkit-linear-gradient(45deg,#F7BC01,#D56741);
    background:linear-gradient(45deg,#F7BC01,#D56741);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa2{
-   background:linear-gradient(45deg,#27d853,#35c9ff  );
+	background: -moz-linear-gradient(45deg,#27d853,#35c9ff);
+   background:-webkit-linear-gradient(45deg,#27d853,#35c9ff);
+   background:linear-gradient(45deg,#27d853,#35c9ff);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa3{
+	background: -moz-linear-gradient(45deg,#fff502,#ffb800);
+   background:-webkit-linear-gradient(45deg,#fff502,#ffb800);
    background:linear-gradient(45deg,#fff502,#ffb800);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa4{
+	background: -moz-linear-gradient(45deg,#2400ff,#00d1ff);
+   background:-webkit-linear-gradient(45deg,#2400ff,#00d1ff);
    background:linear-gradient(45deg,#2400ff,#00d1ff);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa5{
+	background: -moz-linear-gradient(45deg,#f40594,#e105f4);
+   background:-webkit-linear-gradient(45deg,#f40594,#e105f4);
    background:linear-gradient(45deg,#f40594,#e105f4);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa6{
+	background: -moz-linear-gradient(45deg,#fd005b,#f90698);
+   background:-webkit-linear-gradient(45deg,#fd005b,#f90698);
    background:linear-gradient(45deg,#fd005b,#f90698);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa7{
+	background: -moz-linear-gradient(45deg,#0693f9,#09f2f2);
+   background:-webkit-linear-gradient(45deg,#0693f9,#09f2f2);
    background:linear-gradient(45deg,#0693f9,#09f2f2);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
 }
 .card:hover .fa8{
+	background: -moz-linear-gradient(45deg,#05ff00,#dbff00);
+   background:-webkit-linear-gradient(45deg,#05ff00,#dbff00);
    background:linear-gradient(45deg,#05ff00,#dbff00);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip:text;
